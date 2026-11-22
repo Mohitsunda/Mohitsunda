@@ -2,6 +2,8 @@
 
 ### Data Analyst | Business Analyst | BI Analyst
 
+[Resume website](https://mohit-sunda-analytics.sundamohit12.chatgpt.site) · [Download CV](https://mohit-sunda-analytics.sundamohit12.chatgpt.site/assets/Mohit_Sunda_Resume.pdf) · [LinkedIn](https://www.linkedin.com/in/mohit-sunda-ab97b7190/)
+
 Edinburgh, Scotland. MSc Business Analytics and Consultancy, Heriot-Watt University, completed with merit.
 
 I use Python, SQL, Power BI and Excel to investigate business questions, build useful reporting and turn evidence into practical decisions. My background includes data analysis at Savanta Analytics and projects in retail, customer behaviour and sustainable logistics.
