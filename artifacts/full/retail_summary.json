@@ -1,0 +1,23 @@
+{
+  "input_rows": 541909,
+  "exact_duplicates_removed": 5268,
+  "invalid_rows_removed_after_dedup": 2512,
+  "retained_rows": 534129,
+  "missing_customer_rows_retained": 132565,
+  "gross_sales_gbp": 10642110.804000001,
+  "credits_gbp": 893979.73,
+  "net_revenue_gbp": 9748131.074000001,
+  "duplicate_policy": "Remove exact duplicate rows; alternative policy requires source invoice-line IDs",
+  "source_mode": "full",
+  "source_file_sha256": "43465a06f2ccf7c8b5bd2892bc7defb52f97487934fe93b16ae4c3936424676d",
+  "synthetic_seed": null,
+  "data_type": "Historical public dataset",
+  "period_start": "2010-12-01",
+  "period_end": "2011-12-09",
+  "positive_orders": 19960,
+  "identified_customers": 4338,
+  "unidentified_gross_sales_share": 0.1649016762107375,
+  "top_country": "United Kingdom",
+  "top_country_net_revenue_share": 0.8400843445614095,
+  "credit_to_gross_ratio": 0.08400398628287012
+}

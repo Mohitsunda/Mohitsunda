@@ -1,0 +1,23 @@
+{
+  "input_rows": 12088,
+  "exact_duplicates_removed": 55,
+  "invalid_rows_removed_after_dedup": 5,
+  "retained_rows": 12028,
+  "missing_customer_rows_retained": 1572,
+  "gross_sales_gbp": 633224.49,
+  "credits_gbp": 45914.67,
+  "net_revenue_gbp": 587309.82,
+  "duplicate_policy": "Remove exact duplicate rows; alternative policy requires source invoice-line IDs",
+  "source_mode": "demo",
+  "source_file_sha256": null,
+  "synthetic_seed": 42,
+  "data_type": "Synthetic demo",
+  "period_start": "2025-01-01",
+  "period_end": "2025-12-26",
+  "positive_orders": 2802,
+  "identified_customers": 448,
+  "unidentified_gross_sales_share": 0.13279702748072808,
+  "top_country": "United Kingdom",
+  "top_country_net_revenue_share": 0.8062047728062848,
+  "credit_to_gross_ratio": 0.07250930866555713
+}

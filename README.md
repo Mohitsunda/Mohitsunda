@@ -34,7 +34,7 @@ My work covers data cleaning, analytical SQL, dashboards, customer segmentation,
 
 ## Reproducible work
 
-The portfolio includes a packaged Python CLI, executable SQL, an interactive dashboard, three executed notebooks, an offline demonstration, automated checks and deployment configuration. Local verification passed 20 tests. Hosted CI status is shown by the repository's [actual workflow runs](https://github.com/Mohitsunda/Mohitsunda/actions).
+The portfolio includes a packaged Python CLI, executable SQL, an interactive dashboard, three executed notebooks, an offline demonstration, automated checks and deployment configuration. Local verification passed 21 tests. Hosted CI status is shown by the repository's [actual workflow runs](https://github.com/Mohitsunda/Mohitsunda/actions).
 
 Public retail and telecom data are historical research sources. The logistics case is synthetic. These are independent portfolio studies, built with AI assistance and documented assumptions. Model scores and scenario projections are not claims of realised client impact.
 

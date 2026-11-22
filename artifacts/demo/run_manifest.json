@@ -1,0 +1,8 @@
+{
+  "source_mode": "demo",
+  "seed": 42,
+  "retail_input_rows": 12088,
+  "churn_rows": 1500,
+  "logistics_rows": 6000,
+  "command": "portfolio build --source demo"
+}

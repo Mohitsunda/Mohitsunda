@@ -1,0 +1,16 @@
+{
+  "retail": {
+    "url": "https://archive.ics.uci.edu/static/public/352/online%2Bretail.zip",
+    "member": "Online Retail.xlsx",
+    "archive_sha256": "f5385cbb54bbebf7196389109c6b0621faab0c304e3702548165e71c84aede8b",
+    "file_sha256": "43465a06f2ccf7c8b5bd2892bc7defb52f97487934fe93b16ae4c3936424676d",
+    "bytes": 23715344
+  },
+  "churn": {
+    "url": "https://archive.ics.uci.edu/static/public/563/iranian%2Bchurn%2Bdataset.zip",
+    "member": "Customer Churn.csv",
+    "archive_sha256": "696c3a1812267980751f30d19193a1b430ac4ad76172bb089e664c96813ead66",
+    "file_sha256": "90d5fb6bd1630cd4de4b4d28fcf8b4cb92a8f6ab7484605b0799d47386f7dbe1",
+    "bytes": 131728
+  }
+}

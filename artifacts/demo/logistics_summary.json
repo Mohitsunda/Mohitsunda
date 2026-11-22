@@ -1,0 +1,29 @@
+{
+  "data_type": "Synthetic scenario, not an observed company dataset",
+  "shipments": 6000,
+  "lanes": 8,
+  "baseline_cost_gbp": 734531.26,
+  "baseline_co2e_kg": 251952.025,
+  "baseline_on_time_rate": 0.857,
+  "scenario_cost_gbp": 763242.3352000001,
+  "scenario_co2e_kg": 222781.41869999998,
+  "scenario_on_time_rate": 0.8514075,
+  "cost_increase_gbp": 28711.07520000008,
+  "co2e_reduction_pct": 0.11577841575196712,
+  "scenarios_evaluated": 256,
+  "feasible_scenarios": 128,
+  "selected_lanes": [
+    "Edinburgh\u2013Aberdeen",
+    "Edinburgh\u2013Inverness",
+    "Glasgow\u2013Aberdeen"
+  ],
+  "assumptions": {
+    "illustrative_diesel_kg_co2e_per_km": 0.25,
+    "consolidation_distance_reduction_pct": 0.22,
+    "consolidation_cost_increase_pct": 0.08,
+    "consolidation_on_time_penalty_pp": 1.5,
+    "max_cost_increase_pct": 0.04,
+    "minimum_weighted_on_time_rate": 0.84,
+    "assumption_status": "Illustrative inputs, not government emissions factors or measured intervention effects"
+  }
+}

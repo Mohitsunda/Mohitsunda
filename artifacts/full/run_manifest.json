@@ -1,0 +1,8 @@
+{
+  "source_mode": "full",
+  "seed": 42,
+  "retail_input_rows": 541909,
+  "churn_rows": 3150,
+  "logistics_rows": 6000,
+  "command": "portfolio build --source full"
+}

@@ -1,0 +1,53 @@
+{
+  "dataset": "Seeded synthetic churn demo",
+  "source_mode": "demo",
+  "rows": 1500,
+  "feature_groups": 1500,
+  "seed": 42,
+  "train_rows": 900,
+  "validation_rows": 300,
+  "test_rows": 300,
+  "churn_rate": 0.21533333333333332,
+  "test_churn_rate": 0.21666666666666667,
+  "selected_model": "logistic_regression",
+  "selection_metric": "validation average precision",
+  "excluded_features": [
+    "status",
+    "customer_value",
+    "age",
+    "age_group"
+  ],
+  "features": [
+    "call_failure",
+    "complains",
+    "subscription_length",
+    "charge_amount",
+    "seconds_of_use",
+    "frequency_of_use",
+    "frequency_of_sms",
+    "distinct_called_numbers",
+    "tariff_plan"
+  ],
+  "test_metrics": {
+    "average_precision": 0.6059080003665707,
+    "roc_auc": 0.7419967266775777,
+    "brier_score": 0.12827043176716504,
+    "precision": 0.7105263157894737,
+    "recall": 0.4153846153846154,
+    "confusion_matrix": [
+      [
+        224,
+        11
+      ],
+      [
+        38,
+        27
+      ]
+    ],
+    "threshold": 0.53
+  },
+  "precision_at_top_20_percent": 0.5333333333333333,
+  "lift_at_top_20_percent": 2.4615384615384612,
+  "cost_assumption": "False negative = 5 and false positive = 1 arbitrary cost units; not ROI",
+  "deployment_status": "Research demonstration; requires prospective validation"
+}

@@ -1,0 +1,6 @@
+call_failure,complains,subscription_length,charge_amount,seconds_of_use,frequency_of_use,frequency_of_sms,distinct_called_numbers,tariff_plan
+2,0,12,3,2400,180,40,22,1
+12,1,8,1,600,65,10,8,1
+3,0,30,7,6000,400,100,60,2
+8,0,20,4,1800,150,50,30,2
+15,1,4,2,300,25,5,5,1

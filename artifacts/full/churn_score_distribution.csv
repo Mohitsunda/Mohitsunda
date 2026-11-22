@@ -1,0 +1,41 @@
+bin_midpoint,outcome,cases
+0.025,Did not churn,329
+0.07500000000000001,Did not churn,67
+0.125,Did not churn,60
+0.17500000000000002,Did not churn,29
+0.225,Did not churn,10
+0.275,Did not churn,7
+0.32500000000000007,Did not churn,6
+0.375,Did not churn,2
+0.42500000000000004,Did not churn,6
+0.475,Did not churn,5
+0.525,Did not churn,11
+0.5750000000000001,Did not churn,1
+0.625,Did not churn,1
+0.675,Did not churn,0
+0.7250000000000001,Did not churn,0
+0.775,Did not churn,0
+0.8250000000000001,Did not churn,0
+0.875,Did not churn,0
+0.925,Did not churn,0
+0.9750000000000001,Did not churn,0
+0.025,Churned,0
+0.07500000000000001,Churned,1
+0.125,Churned,2
+0.17500000000000002,Churned,2
+0.225,Churned,1
+0.275,Churned,7
+0.32500000000000007,Churned,3
+0.375,Churned,1
+0.42500000000000004,Churned,6
+0.475,Churned,2
+0.525,Churned,15
+0.5750000000000001,Churned,4
+0.625,Churned,5
+0.675,Churned,1
+0.7250000000000001,Churned,4
+0.775,Churned,2
+0.8250000000000001,Churned,4
+0.875,Churned,7
+0.925,Churned,27
+0.9750000000000001,Churned,7

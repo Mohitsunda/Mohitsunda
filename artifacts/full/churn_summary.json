@@ -1,0 +1,53 @@
+{
+  "dataset": "UCI Iranian Churn",
+  "source_mode": "full",
+  "rows": 3150,
+  "feature_groups": 2785,
+  "seed": 42,
+  "train_rows": 1884,
+  "validation_rows": 631,
+  "test_rows": 635,
+  "churn_rate": 0.15714285714285714,
+  "test_churn_rate": 0.15905511811023623,
+  "selected_model": "random_forest",
+  "selection_metric": "validation average precision",
+  "excluded_features": [
+    "status",
+    "customer_value",
+    "age",
+    "age_group"
+  ],
+  "features": [
+    "call_failure",
+    "complains",
+    "subscription_length",
+    "charge_amount",
+    "seconds_of_use",
+    "frequency_of_use",
+    "frequency_of_sms",
+    "distinct_called_numbers",
+    "tariff_plan"
+  ],
+  "test_metrics": {
+    "average_precision": 0.9084907722495024,
+    "roc_auc": 0.9777413134571885,
+    "brier_score": 0.04470844548732427,
+    "precision": 0.6666666666666666,
+    "recall": 0.9504950495049505,
+    "confusion_matrix": [
+      [
+        486,
+        48
+      ],
+      [
+        5,
+        96
+      ]
+    ],
+    "threshold": 0.22
+  },
+  "precision_at_top_20_percent": 0.7165354330708661,
+  "lift_at_top_20_percent": 4.5049504950495045,
+  "cost_assumption": "False negative = 5 and false positive = 1 arbitrary cost units; not ROI",
+  "deployment_status": "Research demonstration; requires prospective validation"
+}

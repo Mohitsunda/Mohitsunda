@@ -1,0 +1,32 @@
+// Create each table or measure separately in Power BI Desktop.
+Date = CALENDAR(MIN(FactRetail[OrderDate]), MAX(FactRetail[OrderDate]))
+
+// Create these two as calculated columns in the Date table, not measures.
+Year = YEAR('Date'[Date])
+Month Start = DATE(YEAR('Date'[Date]), MONTH('Date'[Date]), 1)
+
+// Create the remaining definitions as measures.
+Gross Sales GBP =
+    CALCULATE(SUM(FactRetail[line_value]), KEEPFILTERS(FactRetail[line_value] > 0))
+
+Credits GBP =
+    -CALCULATE(SUM(FactRetail[line_value]), KEEPFILTERS(FactRetail[line_value] < 0))
+
+Net Recorded Revenue GBP = SUM(FactRetail[line_value])
+
+Positive Orders =
+    CALCULATE(DISTINCTCOUNT(FactRetail[invoice_no]), KEEPFILTERS(FactRetail[line_value] > 0))
+
+Gross Order Value GBP = DIVIDE([Gross Sales GBP], [Positive Orders])
+
+Credits to Gross Ratio = DIVIDE([Credits GBP], [Gross Sales GBP])
+
+Unidentified Gross Sales GBP =
+    CALCULATE([Gross Sales GBP], KEEPFILTERS(ISBLANK(FactRetail[customer_id])))
+
+Unidentified Gross Sales Share = DIVIDE([Unidentified Gross Sales GBP], [Gross Sales GBP])
+
+Identified Purchasing Customers =
+    CALCULATE(DISTINCTCOUNT(FactRetail[customer_id]),
+        KEEPFILTERS(FactRetail[line_value] > 0),
+        KEEPFILTERS(NOT ISBLANK(FactRetail[customer_id])))

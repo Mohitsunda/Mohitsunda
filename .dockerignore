@@ -1,0 +1,11 @@
+.git
+.venv
+__pycache__
+.pytest_cache
+.ruff_cache
+data/raw
+*.joblib
+*.duckdb
+artifacts/*/retail_lines.parquet
+.streamlit/secrets.toml
+.env

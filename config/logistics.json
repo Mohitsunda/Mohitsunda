@@ -1,0 +1,9 @@
+{
+  "illustrative_diesel_kg_co2e_per_km": 0.25,
+  "consolidation_distance_reduction_pct": 0.22,
+  "consolidation_cost_increase_pct": 0.08,
+  "consolidation_on_time_penalty_pp": 1.5,
+  "max_cost_increase_pct": 0.04,
+  "minimum_weighted_on_time_rate": 0.84,
+  "assumption_status": "Illustrative inputs, not government emissions factors or measured intervention effects"
+}

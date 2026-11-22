@@ -1,0 +1,16 @@
+name: Bug report
+description: Report a reproducibility or analytics issue
+body:
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Reproduction command and data run
+      description: Include Python version, operating system, command, and demo/full mode.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected and observed result
+    validations:
+      required: true
